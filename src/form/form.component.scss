@@ -1,0 +1,41 @@
+.container{
+    background-color: cyan;
+    width: 100%;
+    height: 655px;
+    position: fixed;
+    max-width: 1365px;
+}
+.card{
+    background-color: #00008b9e;
+    width: 25%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 15%;
+    h1{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .form-group{
+       margin-left: 85px;
+       
+      // padding:10px;
+    }
+    .form-group label{
+        margin-left: 30px;
+    }
+}
+    a{
+       color: red;
+      // padding-left: 160px;
+    }
+    img{
+        height: 70px;
+        margin-top: 10px;
+    width: 88px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+

@@ -1,0 +1,21 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    background-color: cyan;
+    padding: 10px;
+}
+nav{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+ul{
+    margin-top: 8px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.btn{
+    background-color: darkorchid;
+}

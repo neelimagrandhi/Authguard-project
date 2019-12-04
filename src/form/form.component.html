@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="card">
+        <img src="https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F60897596_865038493839445_3228894711632625664_n.jpg%3Foe%3D5DDF6D76%26oh%3D522eaa1b88c6df012bbbfe3481533358&t=s&u=919642648488-1560099935%40g.us&i=1560172425"/>
+    <div class="form mt-3">
+         
+        <div class="form-group">
+            <label>*User Name</label><br>
+            <input type="text"  placeholder="Enter name"  [(ngModel)]="username" />
+        </div> 
+       <div class="form-group">
+           <label>*Password</label><br>
+           <input type="password" placeholder="Enter password" [(ngModel)]="password" />
+       </div>
+       <div class="form-group">
+           <a>Forget Password</a>
+       </div>
+      
+      <div class="form-group">
+      <input type="submit" value="LOGIN" (click)="submit()">&nbsp;
+      <input type="submit" value="CANCEL" (click)="cancel()">
+      </div>
+    </div>
+      
+    </div>
+
+</div>

@@ -1,0 +1,24 @@
+<div class="container-fluid">
+        <h4>LOGO</h4>
+        <h4>LOGIN</h4>
+    </div>
+    <nav>
+        <ul>
+            <li><a [routerLink]="['/home']">Users</a></li>
+            <li ><a [routerLink]="['/posts']">Posts</a></li>
+            <li><a [routerLink]="['/comments']">Comments</a></li>
+        </ul>
+    </nav>
+
+<accordion [closeOthers]="oneAtATime" class="m-5" *ngFor="let data of users">
+     <accordion-group heading="Userid">
+         {{data.id}}
+        </accordion-group>
+        <accordion-group heading="Userdetails">
+          {{data.name}}
+          {{data.email}}
+        </accordion-group>
+        <accordion-group heading="Userwebsite">
+          {{data.website}}
+        </accordion-group>
+      </accordion>
